@@ -1,0 +1,24 @@
+[package]
+name = "windows_term_events"
+version = "0.1.0"
+authors = ["Erich Gubler <erichdongubler@gmail.com>"]
+
+[dependencies]
+failure = "0.1.1"
+arrayvec = "0.4.7"
+
+[dependencies.winapi]
+version = "0.3.5"
+features = [
+	"consoleapi",
+	"handleapi",
+	"minwindef",
+	"ntdef",
+	"processenv",
+	"winbase",
+	"wincon",
+	"winuser",
+]
+
+[dev-dependencies]
+quicli = "0.2.0"
