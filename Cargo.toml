@@ -21,4 +21,4 @@ features = [
 ]
 
 [dev-dependencies]
-quicli = "0.2.0"
+quicli = "0.3.0"
